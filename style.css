@@ -1,10 +1,16 @@
 body {
     background-color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0px;
     padding: 8em;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.title {
+    font-size: 38px;
+    font-weight: 700;
 }
 
 .sketch-container {
@@ -16,6 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1em;
 }
 
 .pixel {
@@ -29,5 +36,20 @@ body {
 
 .buttons {
     display: flex;
+    gap: 4px;
     align-items: center;
+}
+
+.button {
+    font-size: 24px;
+    color: white;
+    transition-duration: 0.05s;
+    padding: 6px 16px;
+    border: 5px solid rgb(162, 111, 211);
+    border-radius: 24px;
+    background-color: violet;
+}
+
+.button:hover {
+    background-color: rgb(87, 21, 150);
 }
