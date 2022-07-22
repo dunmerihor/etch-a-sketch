@@ -1,0 +1,33 @@
+body {
+    background-color: blueviolet;
+    margin: 0px;
+    padding: 8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sketch-container {
+    border-radius: 16px;
+    color: aliceblue;
+    border: 4px solid palevioletred;
+    background-color: indigo;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pixel {
+    border: 1px solid black;
+    margin: 0px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
